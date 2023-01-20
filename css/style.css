@@ -1,0 +1,29 @@
+/* Custom Css  */
+.floting-banner {
+  bottom: 100px;
+  left: auto;
+  right: 50px;
+}
+
+.floting-banner span {
+  cursor: pointer;
+}
+
+.package.active,
+.package:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  transform: scale(1.2) translate(0px, -10px);
+  transition: all 0.8s ease;
+  z-index: 2;
+}
+
+.package,
+.package.active {
+  z-index: 1;
+  border: 1px solid #fff;
+}
+
+.start-85 {
+  left: 85% !important;
+}
